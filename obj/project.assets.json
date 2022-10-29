@@ -2120,19 +2120,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Javeriana\\.nuget\\packages\\": {}
+    "C:\\Users\\MIN Educación FFIE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Javeriana\\Documents\\GitHub\\IS-ServicioEntregaInfoBen\\WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\MIN Educación FFIE\\Documents\\GitHub\\IS-ServicioEntregaInfoBen\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\Users\\Javeriana\\Documents\\GitHub\\IS-ServicioEntregaInfoBen\\WebApplication.csproj",
-      "packagesPath": "C:\\Users\\Javeriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Javeriana\\Documents\\GitHub\\IS-ServicioEntregaInfoBen\\obj\\",
+      "projectPath": "C:\\Users\\MIN Educación FFIE\\Documents\\GitHub\\IS-ServicioEntregaInfoBen\\WebApplication.csproj",
+      "packagesPath": "C:\\Users\\MIN Educación FFIE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MIN Educación FFIE\\Documents\\GitHub\\IS-ServicioEntregaInfoBen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Javeriana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MIN Educación FFIE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
