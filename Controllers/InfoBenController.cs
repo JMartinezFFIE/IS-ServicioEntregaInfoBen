@@ -83,7 +83,16 @@ namespace WebApplication.Controllers
                 Console.Write(connection);
                 await connection.OpenAsync();
 
-                string Query = "SELECT * FROM BeneficiariosAsociatividad as ba WHERE ba.numId = " + pCedula + " AND ba.municipio LIKE '" + pMunicipio + "'";
+                string Query = String.Empty;
+
+
+                if (!string.IsNullOrEmpty(pCedula) && !string.IsNullOrEmpty(pMunicipio)) 
+                    Query = "SELECT * FROM BeneficiariosAsociatividad as ba WHERE ba.numId = " + pCedula + " OR ba.municipio LIKE '" + pMunicipio + "'"; 
+                else if (!string.IsNullOrEmpty(pCedula))
+                    Query = "SELECT * FROM BeneficiariosAsociatividad as ba WHERE ba.numId = " + pCedula;
+                else
+                    Query = "SELECT * FROM BeneficiariosAsociatividad as ba WHERE ba.municipio LIKE '" + pMunicipio + "'";
+
                 using var command = new MySqlCommand(Query, connection);
 
 
